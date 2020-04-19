@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#click2").hide();
+    $("#click3").hide();
+    $("#click4").hide();
+    $("#button2").hide();
+    $("#button3").hide();
+    $("#button4").hide();
+    
+  $("#button1").click(function(){
+    $("#click1").hide();
+    $("#button1").hide();
+    $("#button2").show();
+    $("#click2").show();
+  });
+  $("#button2").click(function(){
+    $("#click2").hide();
+    $("#button2").hide();
+    $("#button3").show();
+    $("#click3").show();
+  });
+  $("#button3").click(function(){
+    $("#click3").hide();
+    $("#button3").hide();
+    
+    $("#click4").show();
+  });
+
+});
+</script>
+</head>
+<body>
+
+<h2>This is a heading</h2>
+
+<p id="click1">This is paragraph 1</p>
+<button id="button1">Click me</button>
+
+<p id="click2">This is paragraph 2</p>
+<button id="button2">Click me again</button>
+
+<p id="click3">This is paragraph 3</p>
+<button id="button3">Click me one more time</button>
+
+<p id="click4">You are done clicking</p>
+</body>
+</html>
