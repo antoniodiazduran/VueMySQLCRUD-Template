@@ -20,6 +20,6 @@ Uses vue.js v2.0 and vue-router v2.0
  - The changes to the database are made by AXIOS POST call in the invoice.js file
  - The refreshing of the data is completed by allRecords function using an AXIOS function
 
-### MySQL 
+## MySQL 
  - The PHP file is located in the web server as API type call to serve the VueJS templates, AXIOS will do the trick
  - 
