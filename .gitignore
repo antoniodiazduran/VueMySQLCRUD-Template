@@ -1,0 +1,4 @@
+# Ignore node_modules in the directory
+node_modules/
+index.html
+test.html
