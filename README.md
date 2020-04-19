@@ -14,7 +14,7 @@ Uses vue.js v2.0 and vue-router v2.0
 
 ### Sample application
  - This CRUD sample uses three files: invoice.html, src/js/invoice.js and a PHP file for accessing MySQL server
- - All templates are located in the same invoice.html file, defined by "<template></template>"
+ - All templates are located in the same invoice.html file, defined by TEMPLATE tag
  - It uses the VUE Route to call the templates
  - The data is manipulated from the MySQL server into a Javascript array in the invoice.js file
  - The changes to the database are made by AXIOS POST call in the invoice.js file
